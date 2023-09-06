@@ -60,10 +60,14 @@
     <Compile Include="ViewModels\AnotherScreen.cs" />
     <Compile Include="ViewModels\BaseViewModel.cs" />
     <Compile Include="Helpers\ChangeNotifier.cs" />
+    <Compile Include="ViewModels\ExitViewmodel.cs" />
     <Compile Include="ViewModels\HomeScreenViewModel.cs" />
     <Compile Include="ViewModels\MainWindowViewModel.cs" />
     <Compile Include="Views\AnotherScreen.xaml.cs">
       <DependentUpon>AnotherScreen.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ExitView.xaml.cs">
+      <DependentUpon>ExitView.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\HomeScreen.xaml.cs">
       <DependentUpon>HomeScreen.xaml</DependentUpon>
@@ -81,6 +85,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="Views\AnotherScreen.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\ExitView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

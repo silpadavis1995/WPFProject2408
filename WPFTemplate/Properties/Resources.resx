@@ -124,12 +124,18 @@
     <value>Move to another screen</value>
   </data>
   <data name="String2" xml:space="preserve">
-    <value>Move back</value>
+    <value>Move to Exit screen</value>
   </data>
   <data name="String3" xml:space="preserve">
     <value>AnotherScreen -- Hello!</value>
   </data>
   <data name="String4" xml:space="preserve">
     <value>WPFTemplate</value>
+  </data>
+  <data name="String5" xml:space="preserve">
+    <value>This is the Exit screen</value>
+  </data>
+  <data name="String6" xml:space="preserve">
+    <value>Exit button </value>
   </data>
 </root>

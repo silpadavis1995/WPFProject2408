@@ -79,7 +79,7 @@ namespace WPFTemplate.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Move back.
+        ///   Looks up a localized string similar to Move to Exit screen.
         /// </summary>
         public static string String2 {
             get {
@@ -102,6 +102,24 @@ namespace WPFTemplate.Properties {
         public static string String4 {
             get {
                 return ResourceManager.GetString("String4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to This is the Exit screen.
+        /// </summary>
+        public static string String5 {
+            get {
+                return ResourceManager.GetString("String5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Exit button .
+        /// </summary>
+        public static string String6 {
+            get {
+                return ResourceManager.GetString("String6", resourceCulture);
             }
         }
     }

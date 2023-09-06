@@ -15,14 +15,24 @@ namespace WPFTemplate.ViewModels
         {
         }
 
-        public ICommand GoToMainMenu
+        //public ICommand GoToEixt
+        //{
+        //    get { return new RelayCommand(PopToMainMenu); }
+        //}
+
+        //private void PopToMainMenu()
+        //{
+        //    PopViewModel();
+        //}
+
+        public ICommand GoToEixt
         {
-            get { return new RelayCommand(PopToMainMenu); }
+            get { return new RelayCommand(LoadExitScreen); }
         }
 
-        private void PopToMainMenu()
+        private void LoadExitScreen()
         {
-            PopViewModel();
+            PushViewModel(new ExitViewModel(ViewModelChanger));
         }
     }
 }
